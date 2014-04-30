@@ -6,7 +6,8 @@
   "author": "John Doe",
   "devDependencies": {
     "lineman": "^0.29.2",
-    "lineman-ember": "0.0.3"
+    "lineman-ember": "0.0.3",
+    "lineman-rails": "0.0.2"
   },
   "scripts": {
     "start": "lineman run",

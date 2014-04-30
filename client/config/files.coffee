@@ -3,7 +3,7 @@ module.exports = (lineman) ->
     vendor: [
       "vendor/js/jquery.min.js"
       "vendor/js/handlebars.js"
-      "vendor/js/ember.min.js"
-      "vendor/js/ember-data.min.js"
+      "vendor/js/ember.js"
+      "vendor/js/ember-data.js"
       "vendor/js**/*.js"
     ]
