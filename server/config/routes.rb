@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  resources :cleanses
-  resources :users
+  namespace :api do
+    resources :cleanses
+    resources :users
+  end
 
-  root to: "embers#index"
+  root to: 'embers#index'
+  get '*ember', to: 'home#index'
 end
